@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Sermons | The ReNewed Life Church</title>
+    <style>
+        body {
+            background: #181a1b;
+            color: #e6e6e6;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #23272b;
+            padding: 24px 0 12px 0;
+            text-align: center;
+            border-bottom: 3px solid #a6192e;
+        }
+        h1 {
+            color: #a6192e;
+            font-size: 2.2em;
+            margin-bottom: 0.3em;
+            text-shadow: 2px 2px 8px #0008;
+        }
+        nav a {
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+            padding: 6px 12px;
+            border-radius: 4px;
+            transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+            color: #e6e6e6;
+            margin: 0 8px;
+        }
+        nav a:hover {
+            background: #a6192e;
+            color: #fff;
+            box-shadow: 0 2px 8px #a6192e55;
+        }
+        main {
+            padding: 30px 10px 10px 10px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .sermon-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            justify-content: center;
+        }
+        .sermon-card {
+            background: #23272bcc;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px #0005;
+            padding: 24px 18px 18px 18px;
+            width: 400px;
+            margin-bottom: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sermon-card h2 {
+            color: #a6192e;
+            font-size: 1.3em;
+            margin-bottom: 0.7em;
+            text-align: center;
+        }
+        .sermon-card p {
+            color: #e6e6e6;
+            font-size: 1.1em;
+            margin-bottom: 1em;
+            text-align: center;
+        }
+        .sermon-card iframe {
+            border-radius: 16px;
+            box-shadow: 0 2px 12px #a6192e55;
+            background: #23272b;
+            margin-bottom: 12px;
+            width: 100%;
+            height: 200px;
+            aspect-ratio: 16 / 9;
+            display: block;
+        }
+        .sermon-card a {
+            color: #a6192e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .sermon-card a:hover {
+            text-decoration: underline;
+        }
+        .go-live-btn {
+            display: inline-block;
+            background: #a6192e;
+            color: #fff;
+            font-size: 1.25em;
+            font-weight: bold;
+            padding: 14px 32px;
+            border-radius: 30px;
+            text-decoration: none;
+            box-shadow: 0 4px 16px #a6192e55;
+            letter-spacing: 1px;
+            position: relative;
+            animation: pulse 1.2s infinite;
+            transition: background 0.2s, color 0.2s, transform 0.2s;
+        }
+        .go-live-btn:hover {
+            background: #fff;
+            color: #a6192e;
+            transform: scale(1.05);
+            box-shadow: 0 6px 24px #a6192e77;
+        }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 #a6192e88; }
+            70% { box-shadow: 0 0 0 16px rgba(166,25,46,0); }
+            100% { box-shadow: 0 0 0 0 rgba(166,25,46,0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color:#a6192e; font-size:2.4em; margin-bottom:0.2em; text-shadow:2px 2px 12px #23272b, 0 0 18px #a6192e88;">
+            ReNewed Life Church Sermons
+        </h1>
+        <p style="color:#e6e6e6; font-size:1.15em; margin-top:0; margin-bottom:1em; letter-spacing:1px;">
+            Experience powerful messages of hope, faith, and transformation from Pastor Larry Smith and guest speakers. Watch our latest sermons below or explore our full library for more inspiration!
+        </p>
+        <nav>
+            <a href="index.itml.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="dontate.html">Donate</a>
+            <a href="sermons.html">Sermons</a>
+        </nav>
+    </header>
+    <main>
+        <div style="display:flex; justify-content:center; margin-bottom: 2em;">
+            <a 
+                href="https://www.youtube.com/@RenewedLifePage/live" 
+                target="_blank" 
+                class="go-live-btn"
+            >
+                &#128308; Go Live! Sundays at 12:00 PM
+            </a>
+        </div>
+        <h2 style="color:#fff; text-align:center; font-size:2em; margin-bottom:1em; text-shadow:2px 2px 8px #a6192e88;">
+            Watch Our Latest Sermons
+        </h2>
+        <div class="sermon-list">
+            <div class="sermon-card">
+                <iframe 
+                    src="https://www.youtube.com/embed/GItth_0sfbU" 
+                    title="Yes it's Me - ReNewed Life Church" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+                <h2>"Yes it's Me"</h2>
+                <p>Be encouraged by this powerful message from Pastor Larry Smith. (Starts at 52:06)</p>
+                <a href="https://youtu.be/GItth_0sfbU?si=O5pMgjI3i9TbjYIc" target="_blank">Watch on YouTube</a>
+            </div>
+            <div class="sermon-card">
+                <iframe 
+                    src="https://www.youtube.com/embed/8DCJUM_j6Vk" 
+                    title="Standing for Jesus – Overcome People" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+                <h2>"Standing for Jesus"</h2>
+                <p>Discover how to stand strong for Jesus and overcome challenges in this inspiring sermon.</p>
+                <a href="https://www.youtube.com/watch?v=8DCJUM_j6Vk" target="_blank">Watch on YouTube</a>
+            </div>
+            <!-- Add more sermon cards below as needed -->
+        </div>
+        <p style="text-align:center; color:#a6192e; font-size:1.1em; margin-top:2em;">
+            Want more? Visit our <a href="https://www.youtube.com/@RenewedLifePage/videos" target="_blank" style="color:#a6192e; font-weight:bold;">YouTube channel</a> for all sermons and worship experiences.
+        </p>
+    </main>
+</body>
+</html>
