@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Donate | ReNewed Life Church</title>
+    <style>
+        body {
+            background: #181a1b;
+            color: #e6e6e6;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #23272b;
+            padding: 24px 0 12px 0;
+            text-align: center;
+            border-bottom: 3px solid #a6192e;
+        }
+        h1 {
+            color: #a6192e;
+            font-size: 2.2em;
+            margin-bottom: 0.3em;
+            text-shadow: 2px 2px 8px #0008;
+        }
+        nav a {
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+            padding: 6px 12px;
+            border-radius: 4px;
+            transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+            color: #e6e6e6;
+            margin: 0 8px;
+        }
+        nav a:hover {
+            background: #a6192e;
+            color: #fff;
+            box-shadow: 0 2px 8px #a6192e55;
+        }
+        main {
+            padding: 30px 10px 10px 10px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        p {
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+        }
+        ul {
+            color: #fff;
+            font-size: 1.1em;
+            margin-bottom: 1.5em;
+            padding-left: 30px;
+        }
+        form {
+            background: #23272bcc;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px #0005;
+            padding: 24px 18px 18px 18px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        label {
+            color: #a6192e;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        input[type="number"],
+        input[type="text"],
+        input[type="email"] {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #a6192e;
+            background: #181a1b;
+            color: #e6e6e6;
+            font-size: 1em;
+        }
+        button[type="submit"] {
+            background: #a6192e;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 0;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: background 0.2s, box-shadow 0.2s;
+            animation: pulse 1.2s infinite;
+        }
+        button[type="submit"]:hover {
+            background: #e6e6e6;
+            color: #a6192e;
+            box-shadow: 0 2px 8px #a6192e55;
+        }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 #a6192e88; }
+            70% { box-shadow: 0 0 0 12px rgba(166,25,46,0); }
+            100% { box-shadow: 0 0 0 0 rgba(166,25,46,0); }
+        }
+        .giving-options {
+            background: #23272b;
+            border-radius: 10px;
+            padding: 18px 14px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 12px #a6192e33;
+        }
+        .giving-options h2 {
+            color: #a6192e;
+            font-size: 1.3em;
+            margin-bottom: 0.7em;
+            text-align: center;
+        }
+        .giving-options li {
+            margin-bottom: 0.7em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Donate to ReNewed Life Church</h1>
+        <nav>
+            <a href="index.itml.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="dontate.html">Donate</a>
+            <a href="sermons.html">Sermons</a>
+        </nav>
+    </header>
+    <main>
+        <p>
+            Your generosity helps us continue our mission to serve GOD, support outreach programs, and maintain a welcoming place of worship. Every gift, no matter the size, makes a difference. Thank you for partnering with us!
+        </p>
+        <div class="giving-options">
+            <h2>Ways to Give</h2>
+            <ul>
+                <li>
+                    <strong>Online:</strong> Use the secure form below to give through Givelify.
+                </li>
+                <li>
+                    <strong>In Person:</strong> Give during any of our services.
+                </li>
+                <li>
+                    <strong>By Phone:</strong> Call us at <a href="tel:919-243-1222" style="color:#a6192e;">919-243-1222</a> for more information.
+                </li>
+            </ul>
+        </div>
+        <form action="https://www.givelify.com/donate/MTUwNzAwMQ==/selection" method="get" target="_blank">
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" name="amount" required min="1" step="0.01">
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Donate Now</button>
+        </form>
+        <p>
+            <strong>Thank you for your support!</strong> Your gift is greatly appreciated and will be used to further the work of God through ReNewed Life Church.<br>
+            If you have any questions about giving, please <a href="mailto:info@renewedlifechurch.org" style="color:#a6192e;">contact us</a>.
+        </p>
+    </main>
+</body>
+</html>

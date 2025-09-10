@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> The ReNewed life Church</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(ellipse at top, #353a40 0%, #23272b 100%);
+            color: #e6e6e6;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(90deg, #23272b 60%, #a6192e 100%);
+            color: #e6e6e6;
+            padding: 30px 0 15px 0;
+            text-align: center;
+            border-bottom: 4px solid #b0b0b0;
+            box-shadow: 0 4px 16px #0006;
+        }
+        header h1 {
+            font-family: 'Georgia', serif;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            color: #e6e6e6;
+            text-shadow: 2px 2px 8px #000, 0 0 10px #a6192e55;
+            margin-bottom: 10px;
+            animation: pulse 1.2s infinite;
+        }
+        @keyframes pulse {
+            0% { text-shadow: 2px 2px 8px #000, 0 0 0 0 #a6192e88; }
+            70% { text-shadow: 2px 2px 8px #000, 0 0 16px 12px rgba(166,25,46,0); }
+            100% { text-shadow: 2px 2px 8px #000, 0 0 0 0 rgba(166,25,46,0); }
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #a6192e;
+            margin: 0 18px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+            padding: 6px 12px;
+            border-radius: 4px;
+            transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+        }
+        nav a:hover {
+            background: #a6192e;
+            color: #fff;
+            box-shadow: 0 2px 8px #a6192e55;
+        }
+        main {
+            padding: 30px 10px 10px 10px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #a6192e;
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 0.3em;
+            text-shadow: 1px 1px 6px #0008;
+        }
+        p {
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+        }
+        img {
+            max-width: 220px;
+            height: auto;
+            display: block;
+            margin: 0 auto 25px auto;
+            filter: drop-shadow(0 0 16px #a6192e55);
+            border-radius: 12px;
+            background: #23272b;
+            padding: 8px;
+        }
+        section {
+            background: #23272bcc;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px #0005;
+            padding: 24px 18px 18px 18px;
+            margin-bottom: 30px;
+        }
+        h3 {
+            color: #a6192e;
+            text-align: center;
+            margin-bottom: 0.7em;
+            font-size: 1.3em;
+            letter-spacing: 1px;
+        }
+        blockquote#verse {
+            border-left: 6px solid #a6192e;
+            padding-left: 18px;
+            font-style: italic;
+            color: #fff;
+            background: linear-gradient(90deg, #23272b 80%, #a6192e22 100%);
+            margin: 0 0 18px 0;
+            font-size: 1.15em;
+            min-height: 60px;
+            transition: background 0.3s;
+        }
+        button#new-verse {
+            background: linear-gradient(90deg, #a6192e 60%, #b0b0b0 100%);
+            color: #fff;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 6px;
+            font-size: 1.1em;
+            cursor: pointer;
+            margin: 0 auto;
+            display: block;
+            font-weight: bold;
+            box-shadow: 0 2px 8px #a6192e55;
+            letter-spacing: 1px;
+            transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+            animation: pulse 1.2s infinite;
+        }
+        button#new-verse:hover {
+            background: #fff;
+            color: #a6192e;
+            box-shadow: 0 4px 16px #b0b0b0aa;
+        }
+        footer {
+            background: linear-gradient(90deg, #23272b 60%, #a6192e 100%);
+            color: #e6e6e6;
+            text-align: center;
+            padding: 18px 0 10px 0;
+            border-top: 4px solid #b0b0b0;
+            font-size: 1em;
+            letter-spacing: 1px;
+            margin-top: 40px;
+            box-shadow: 0 -4px 16px #0006;
+        }
+        a {
+            color: #a6192e;
+            text-decoration: underline;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>
+        <span style="font-size:1.2em; color:#a6192e; letter-spacing:3px; text-shadow:2px 2px 8px #000, 0 0 10px #fff8;">WELCOME TO</span><br>
+        <span style="font-family:'Georgia',serif; font-size:2.7em; color:#e6e6e6; text-shadow:3px 3px 12px #23272b, 0 0 18px #a6192e88;">
+            The ReNewed Life Church
+        </span><br>
+        <span style="font-size:1.1em; color:#b0b0b0; letter-spacing:2px; font-style:italic;">
+            Where Hope Rises, Faith Grows, and Lives Are Changed
+        </span><br>
+        <span style="display:inline-block; margin-top:12px; font-size:2em; color:#a6192e; font-weight:bold; letter-spacing:4px; text-shadow:2px 2px 12px #fff8, 0 0 18px #23272b;">
+            BAM!
+        </span>
+    </h1>
+    <nav>
+        <a href="index.itml.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="dontate.html">Donate</a>
+        <a href="sermons.html">Sermons</a>
+    </nav>
+   </header>
+   <main>
+    <h2 style="color:#fff; text-align:center; font-size:2.1em; margin-bottom:0.3em; text-shadow:2px 2px 8px #a6192e88;">
+        WELCOME TO RENEWED LIFE BAM! WHERE YOU AND YOUR FAMILY CAN BE RESTORED, RENEWED, REFRESHED, AND REDEEMED ALL BY THE POWER OF GOD!
+    </h2>
+    <p style="text-align:center; font-size:1.25em; margin-bottom:1.5em; color:#b0b0b0;">
+        JOIN US ON SUNDAYS AT 12:00 PM AND THURSDAYS AT 8:00 PM FOR A RECAP OF SUNDAYS MORNING SERVICE JUST DAIL 717-908-1955 ENTER ACCESS CODE #9827971
+    <p style="text-align:center; font-size:1.25em; margin-bottom:1.5em; color:#b0b0b0;">
+        Step into a place of worship, community, and transformation.<br>
+        <span style="color:#a6192e; font-weight:bold;">You belong here!</span>
+    </p>
+    <img src="church-logo.jpg" alt="Church logo showing a cross rising over a sunrise with the words The ReNewed Life Church in bold letters. The design conveys a warm and uplifting atmosphere, suggesting hope and renewal within a welcoming church community.">
+   <section>
+    <h3>Bible Verse of the Day</h3>
+    <blockquote id="verse">Loading verse ...</blockquote>
+    <button id="new-verse">New Verse</button>
+    <script>
+        const verses = [
+            "For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to give you a future and a hope. - Jeremiah 29:11",
+            "I can do all things through him who strengthens me. - Philippians 4:13",
+            "Trust in the Lord with all your heart, and do not lean on your own understanding. - Proverbs 3:5",
+            "The Lord is my shepherd; I shall not want. - Psalm 23:1",
+            "But they who wait for the Lord shall renew their strength; they shall mount up with wings like eagles; they shall run and not be weary; they shall walk and not faint. - Isaiah 40:31",
+            "Be strong and courageous. Do not be frightened, and do not be dismayed, for the Lord your God is with you wherever you go. - Joshua 1:9",
+            "The steadfast love of the Lord never ceases; his mercies never come to an end; they are new every morning. - Lamentations 3:22-23",
+            "Cast all your anxiety on him because he cares for you. - 1 Peter 5:7",
+            "And we know that in all things God works for the good of those who love him, who have been called according to his purpose. - Romans 8:28",
+            "The Lord is near to all who call on him, to all who call on him in truth. - Psalm 145:18",
+            "Let everything that has breath praise the Lord. - Psalm 150:6",
+            "The name of the Lord is a strong tower; the righteous man runs into it and is safe. - Proverbs 18:10",
+            "Come to me, all who labor and are heavy laden, and I will give you rest. - Matthew 11:28",
+            "Jesus Christ is the same yesterday and today and forever. - Hebrews 13:8",
+            "The Lord will fight for you; you need only to be still. - Exodus 14:14",
+            "Give thanks to the Lord, for he is good; his love endures forever. - Psalm 107:1",
+            "If God is for us, who can be against us? - Romans 8:31",
+            "The Lord is my light and my salvation; whom shall I fear? - Psalm 27:1",
+            "Peace I leave with you; my peace I give to you. - John 14:27",
+            "We love because he first loved us. - 1 John 4:19",
+            "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. - Philippians 4:6",
+            "He heals the brokenhearted and binds up their wounds. - Psalm 147:3",
+            "Your word is a lamp to my feet and a light to my path. - Psalm 119:105",
+            "The Lord is good, a refuge in times of trouble. He cares for those who trust in him. - Nahum 1:7",
+            "My grace is sufficient for you, for my power is made perfect in weakness. - 2 Corinthians 12:9",
+            "The Lord bless you and keep you; the Lord make his face shine on you and be gracious to you. - Numbers 6:24-25",
+            "Delight yourself in the Lord, and he will give you the desires of your heart. - Psalm 37:4",
+            "God is our refuge and strength, an ever-present help in trouble. - Psalm 46:1",
+            "Set your minds on things above, not on earthly things. - Colossians 3:2",
+            "Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up. - Galatians 6:9",
+            "The Lord is compassionate and gracious, slow to anger, abounding in love. - Psalm 103:8",
+            "Taste and see that the Lord is good; blessed is the one who takes refuge in him. - Psalm 34:8",
+            "He has made everything beautiful in its time. - Ecclesiastes 3:11",
+            "As for me and my house, we will serve the Lord. - Joshua 24:15",
+            "I sought the Lord, and he answered me; he delivered me from all my fears. - Psalm 34:4",
+            "Rejoice in the Lord always. I will say it again: Rejoice! - Philippians 4:4",
+            "The Lord is close to the brokenhearted and saves those who are crushed in spirit. - Psalm 34:18",
+            "Be still, and know that I am God. - Psalm 46:10",
+            "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life. - John 3:16",
+            "The Lord your God is with you, the Mighty Warrior who saves. - Zephaniah 3:17",
+            "He gives strength to the weary and increases the power of the weak. - Isaiah 40:29",
+            "The righteous cry out, and the Lord hears them; he delivers them from all their troubles. - Psalm 34:17",
+            "Trust in the Lord forever, for the Lord, the Lord himself, is the Rock eternal. - Isaiah 26:4",
+            "I have loved you with an everlasting love; I have drawn you with unfailing kindness. - Jeremiah 31:3",
+            "The Lord is my strength and my shield; my heart trusts in him, and he helps me. - Psalm 28:7",
+            "You will keep in perfect peace those whose minds are steadfast, because they trust in you. - Isaiah 26:3",
+            "The Lord upholds all who fall and lifts up all who are bowed down. - Psalm 145:14",
+            "Let the peace of Christ rule in your hearts. - Colossians 3:15"
+        ];
+
+        function getRandomVerse() {
+            const randomIndex = Math.floor(Math.random() * verses.length);
+            return verses[randomIndex];
+        }
+
+        document.getElementById('new-verse').addEventListener('click', () => {
+            document.getElementById('verse').textContent = getRandomVerse();
+        });
+
+        // Load an initial verse
+        document.getElementById('verse').textContent = getRandomVerse();   
+    </script>
+   </section>
+</main>
+    <footer>
+     <p>&copy; 2023 The ReNewed Life Church. All rights reserved.</p>
+     <p>Contact us at: <a href="mailto: 7500 Ramble Way STE 107, Raleigh, NC 27616">7500 Ramble Way STE 107, Raleigh, NC 27616 919-243-1222</a></p>
+    </footer>
+</body>
+</html>
